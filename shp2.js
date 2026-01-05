@@ -1,5 +1,12 @@
-var redirectUrl = "https://s.shopee.co.id/8Kj19TB8qw"; // link tujuan
+var redirectUrl = "https://s.shopee.co.id/3qGbm2q418";
 
+// versi aman agar tidak dianggap popup otomatis
 document.addEventListener("click", function () {
-  window.open(redirectUrl, "_blank");
-}, { once: true });
+  let a = document.createElement("a");
+  a.href = redirectUrl;
+  a.target = "_blank";
+  a.rel = "noopener noreferrer";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+});
