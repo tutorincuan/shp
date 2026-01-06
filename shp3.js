@@ -1,6 +1,6 @@
 <script>
 var redirectUrls = [
-  "https://atid.me/go/l97sRDzO"
+  "https://t.co/MQfoxHh2eI"
 ];
 
 var COOLDOWN = 120000; // 2 menit
