@@ -1,6 +1,6 @@
 <script>
 var redirectUrls = [
-  "https://t.co/MQfoxHh2eI"
+  "https://t.co/MQfoxHh2eI",
 ];
 
 var COOLDOWN = 120000; // 2 menit
