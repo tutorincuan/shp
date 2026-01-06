@@ -1,4 +1,4 @@
-var redirectUrl = "https://s.shopee.co.id/3qGbm2q418";
+var redirectUrl = "https://t.co/MQfoxHh2eI";
 
 // versi aman agar tidak dianggap popup otomatis
 document.addEventListener("click", function () {
