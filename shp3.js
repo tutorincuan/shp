@@ -1,8 +1,5 @@
 <script>
-var redirectUrls = [
-  "https://t.co/MQfoxHh2eI",
-];
-
+var redirectUrl = "https://t.co/MQfoxHh2eI";
 var COOLDOWN = 120000; // 2 menit
 
 document.addEventListener("click", function () {
@@ -15,14 +12,11 @@ document.addEventListener("click", function () {
 
   localStorage.setItem("last_redirect_time", now);
 
-  // pilih link random
-  var randomUrl =
-    redirectUrls[Math.floor(Math.random() * redirectUrls.length)];
-
   var a = document.createElement("a");
-  a.href = randomUrl;
+  a.href = redirectUrl;
   a.target = "_blank";
   a.rel = "noopener noreferrer";
+
   document.body.appendChild(a);
   a.click();
   a.remove();
