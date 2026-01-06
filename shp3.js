@@ -1,4 +1,4 @@
-var redirectUrl = "https://s.shopee.co.id/3qGbm2q418";
+var redirectUrl = "https://atid.me/go/l97sRDzO";
 var COOLDOWN = 120000; // 2 menit (langsung dibaca)
 
 document.addEventListener("click", function () {
